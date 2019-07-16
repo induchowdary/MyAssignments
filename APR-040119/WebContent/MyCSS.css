@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+body{
+    align :centre;
+    background-color :darkkhaki;
+}
+.addName {
+    border: 2px solid black;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin :auto;
+    background-color : PapayaWhip;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+h1{
+    background-color: BurlyWood;
+    text-align : center;
+    
+}
+h4{
+    height : 30px;
+    background-color : Moccasin;
+    text-align : center;
+    text-decoration: underline;
+}
+ul{
+	list-style: none;
+	margin-left : -40px;
+	margin-bottom :0px;
+	color:DarkSlateGrey;
+}
+li{
+	border-bottom : 1px solid BurlyWood;
+	background-color :PeachPuff;
+	height : 30px;
+}
+li span{
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	text-align: right;
+	background-color :Tomato;
+	float : right
+}
